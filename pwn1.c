@@ -18,7 +18,7 @@ void setup()
 
 	f = fopen("flag1.txt", "rt");
 	if (f == NULL){
-		printf("Failed to read flag.txt\n");
+		printf("Failed to read flag1.txt\n");
 		exit(0);
 	}
 	fscanf(f, "%s", flag);
