@@ -1,0 +1,2 @@
+gcc pwn1.c -o pwn1 -fno-stack-protector -no-pie -fcf-protection=none
+socat tcp-l:7777,reuseaddr,fork, system:./pwn1
